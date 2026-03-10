@@ -1,0 +1,17 @@
+# Don't upload the model (too large for GitHub)
+models/skin_model.pt
+
+# Don't upload your API key
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Data folder (large images)
+data/
+
+# Virtual environment
+venv/
+.venv/
